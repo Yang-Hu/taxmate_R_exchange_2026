@@ -1,0 +1,68 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+<!-- badges: start -->
+![](inst/taxmate.png){width=20%}
+<!-- badges: end -->
+
+
+# Useful Resources from the Topic: {taxmate} An R-Based Solution to Streamline Treasury Processes
+
+{taxmate} is an internal R-based business solution developed to replace SAS workflows from January 2026. For the full abstract, please visit [R Exchange 2026](https://epi.group/events/r-exchange-2026/yang-hu).
+
+Due to the limited presentation time and the scope of the topic, it was not possible to cover some important areas. This note serves as a quick introduction and includes further reading for those who would like to learn, use, and apply these ideas in their own work.
+
+
+### R Package 
+
+Why write a package? One compelling reason is that you have code that you want to share with others. Bundling your code into a package makes it easy for other people to use it, because like you, they already know how to use packages. If your code is in a package, any R user can easily download it, install it and learn how to use it.
+
+But packages are useful even if you never share your code. Organising code in a package makes your life easier because packages come with conventions. For example, you put R code in `R/`, you put tests in `tests/` and you put data in `data/`.
+
+You can read the book [R Packages](https://r-pkgs.org/) by Hadley Wickham and Jennifer Bryan to learn how to create a package, the fundamental unit of shareable, reusable, and reproducible R code.
+
+
+### R6
+
+R6 is an implementation of encapsulated object-oriented programming in R and is a simpler, faster, and lighter-weight alternative to R’s built-in reference classes.
+
+Why use R6? It becomes useful when your work moves beyond simple, one-off data transformations into building systems with state and layered logic. It allows you to bundle data and behaviour together, so objects can update themselves instead of passing values through many nested functions. This is especially helpful in projects like simulations, projections, or Shiny apps, where components interact over time. For small, stateless tasks it’s unnecessary—but for complex, interdependent workflows, it makes code much easier to organise and maintain.
+
+You can start by reading the [R6 documentation](https://r6.r-lib.org/index.html) in GitHub, then [chapter 14](https://adv-r.hadley.nz/r6.html) from the book Advanced R by Hadley Wickham. The best way to learn R6 is to apply it in practice and understand how the pieces fit together.
+
+
+
+### golem
+
+golem is a toolkit for simplifying the creation, development, and deployment of Shiny applications. It focuses on building applications for production, but starting with golem from the very beginning is also possible—and even recommended. It is easier to start with golem than to refactor your codebase later.
+
+A golem application is an R package, and this structure is well suited for production-ready programs. A good place to start is the book [Engineering Production-Grade Shiny Apps](https://engineering-shiny.org/index.html)by Colin Fay, Sébastien Rochette, Vincent Guyader, and Cervan Girard.
+
+
+
+### Bootstrap 5
+
+The default Shiny UI is based on Bootstrap 4, which is now over 10 years old. The `bslib` package provides a modern UI toolkit for Shiny and R Markdown based on Bootstrap 5, offering a more modern user experience.
+
+A good place to start is the [bslib website](https://rstudio.github.io/bslib/) on GitHub. Once you feel comfortable, you can explore examples and documentation from the Bootstrap 5 official website.
+
+
+
+### Fira Code 
+
+Fira Code is a free monospaced font with ligatures for common programming multi-character combinations. This is purely a visual feature—the underlying code remains ASCII-compatible. It can make code easier to read and understand.
+
+To learn more and install the font, visit the [Fira Code website](https://github.com/tonsky/FiraCode) on GitHub.
+
+
+It has been a fantastic trip for me so far. I hope you find these helpful, and all the best with your journey with R.
