@@ -15,6 +15,8 @@ not possible to cover some important areas. This note serves as a quick
 introduction and includes further reading for those who would like to
 learn, use, and apply these ideas in their own work.
 
+<hr />
+
 ### DuckDB
 
 ![](inst/duckdb.png)
@@ -34,6 +36,8 @@ For more information on using
 [DuckDB](https://github.com/duckdb/duckdb), please refer to the [DuckDB
 documentation](https://duckdb.org/docs/current/).
 
+<hr />
+
 ### R Package
 
 Why write a package? One compelling reason is that you have code that
@@ -50,6 +54,8 @@ conventions. For example, you put R code in `R/`, you put tests in
 You can read the book [R Packages](https://r-pkgs.org/) by Hadley
 Wickham and Jennifer Bryan to learn how to create a package, the
 fundamental unit of shareable, reusable, and reproducible R code.
+
+<hr />
 
 ### R6
 
@@ -75,6 +81,8 @@ documentation](https://r6.r-lib.org/index.html), then [chapter
 Wickham. The best way to learn R6 is to apply it in practice and
 understand how the pieces fit together.
 
+<hr />
+
 ### golem
 
 ![](inst/golem.png)
@@ -91,6 +99,8 @@ for production-ready programs. A good place to start is the book
 Apps](https://engineering-shiny.org/index.html) by Colin Fay, Sébastien
 Rochette, Vincent Guyader, and Cervan Girard.
 
+<hr />
+
 ### Bootstrap 5
 
 ![](inst/bslib.png)
@@ -103,6 +113,8 @@ A good place to start is the [bslib
 website](https://rstudio.github.io/bslib/) on GitHub. Once you feel
 comfortable, you can explore examples and documentation from the
 Bootstrap 5 official website.
+
+<hr />
 
 ### Fira Code
 
