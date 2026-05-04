@@ -112,9 +112,10 @@ old. The `bslib` package provides a modern UI toolkit for Shiny and R
 Markdown based on Bootstrap 5, offering a more modern user experience.
 
 A good place to start is the [bslib
-website](https://rstudio.github.io/bslib/) on GitHub. Once you feel
-comfortable, you can explore examples and documentation from the
-Bootstrap 5 official website.
+website](https://rstudio.github.io/bslib/). Once you feel comfortable,
+you can explore examples and documentation from the [Bootstrap 5
+official
+website](https://getbootstrap.com/docs/5.3/getting-started/introduction/).
 
 <hr />
 
