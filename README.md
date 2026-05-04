@@ -4,7 +4,7 @@
 
 <img src="inst/taxmate.png" style="width:20.0%" /> <!-- badges: end -->
 
-# Useful Resources from the Topic: {taxmate} An R-Based Solution to Streamline Treasury Processes
+# {taxmate} An R-Based Solution to Streamline Treasury Processes
 
 {taxmate} is an internal R-based business solution developed to replace
 SAS workflows from January 2026. For the full abstract, please visit [R
@@ -49,7 +49,7 @@ interdependent workflows, it makes code much easier to organise and
 maintain.
 
 You can start by reading the [R6
-documentation](https://r6.r-lib.org/index.html) in GitHub, then [chapter
+documentation](https://r6.r-lib.org/index.html), then [chapter
 14](https://adv-r.hadley.nz/r6.html) from the book Advanced R by Hadley
 Wickham. The best way to learn R6 is to apply it in practice and
 understand how the pieces fit together.
@@ -65,7 +65,7 @@ refactor your codebase later.
 A golem application is an R package, and this structure is well suited
 for production-ready programs. A good place to start is the book
 [Engineering Production-Grade Shiny
-Apps](https://engineering-shiny.org/index.html)by Colin Fay, Sébastien
+Apps](https://engineering-shiny.org/index.html) by Colin Fay, Sébastien
 Rochette, Vincent Guyader, and Cervan Girard.
 
 ### Bootstrap 5
