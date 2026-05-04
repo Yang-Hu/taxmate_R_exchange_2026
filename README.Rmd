@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 <!-- badges: end -->
 
 
-# {taxmate} An R-Based Solution to Streamline Treasury Processes
+## {taxmate}: An R-Based Solution to Streamline Treasury Processes
 
 {taxmate} is an internal R-based business solution developed to replace SAS workflows from January 2026. For the full abstract, please visit [R Exchange 2026](https://epi.group/events/r-exchange-2026/yang-hu).
 
@@ -64,5 +64,6 @@ Fira Code is a free monospaced font with ligatures for common programming multi-
 
 To learn more and install the font, visit the [Fira Code website](https://github.com/tonsky/FiraCode) on GitHub.
 
+<hr />
 
 It has been a fantastic trip for me so far. I hope you find these helpful, and all the best with your journey with R.

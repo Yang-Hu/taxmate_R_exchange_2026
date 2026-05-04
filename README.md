@@ -4,7 +4,7 @@
 
 <img src="inst/taxmate.png" style="width:20.0%" /> <!-- badges: end -->
 
-# {taxmate} An R-Based Solution to Streamline Treasury Processes
+## {taxmate}: An R-Based Solution to Streamline Treasury Processes
 
 {taxmate} is an internal R-based business solution developed to replace
 SAS workflows from January 2026. For the full abstract, please visit [R
@@ -88,6 +88,8 @@ easier to read and understand.
 
 To learn more and install the font, visit the [Fira Code
 website](https://github.com/tonsky/FiraCode) on GitHub.
+
+<hr />
 
 It has been a fantastic trip for me so far. I hope you find these
 helpful, and all the best with your journey with R.
