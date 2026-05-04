@@ -15,6 +15,25 @@ not possible to cover some important areas. This note serves as a quick
 introduction and includes further reading for those who would like to
 learn, use, and apply these ideas in their own work.
 
+### DuckDB
+
+![](inst/duckdb.png)
+
+DuckDB is a high-performance analytical database system. It is designed
+to be fast, reliable, portable, and easy to use. DuckDB provides a rich
+SQL dialect with support far beyond basic SQL. DuckDB supports arbitrary
+and nested correlated subqueries, window functions, collations, complex
+types (arrays, structs, maps), and several extensions designed to make
+SQL easier to use.
+
+DuckDB is available as a standalone CLI application and has clients for
+Python, R, Java, Wasm, etc., with deep integrations with packages such
+as pandas and dplyr.
+
+For more information on using
+[DuckDB](https://github.com/duckdb/duckdb), please refer to the [DuckDB
+documentation](https://duckdb.org/docs/current/).
+
 ### R Package
 
 Why write a package? One compelling reason is that you have code that
@@ -33,6 +52,8 @@ Wickham and Jennifer Bryan to learn how to create a package, the
 fundamental unit of shareable, reusable, and reproducible R code.
 
 ### R6
+
+![](inst/r6.png)
 
 R6 is an implementation of encapsulated object-oriented programming in R
 and is a simpler, faster, and lighter-weight alternative to R’s built-in
@@ -56,6 +77,8 @@ understand how the pieces fit together.
 
 ### golem
 
+![](inst/golem.png)
+
 golem is a toolkit for simplifying the creation, development, and
 deployment of Shiny applications. It focuses on building applications
 for production, but starting with golem from the very beginning is also
@@ -69,6 +92,8 @@ Apps](https://engineering-shiny.org/index.html) by Colin Fay, Sébastien
 Rochette, Vincent Guyader, and Cervan Girard.
 
 ### Bootstrap 5
+
+![](inst/bslib.png)
 
 The default Shiny UI is based on Bootstrap 4, which is now over 10 years
 old. The `bslib` package provides a modern UI toolkit for Shiny and R
