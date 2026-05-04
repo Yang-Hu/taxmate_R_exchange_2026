@@ -40,6 +40,8 @@ documentation](https://duckdb.org/docs/current/).
 
 ### R Package
 
+<img src="inst/rpackages.png" style="width:25.0%" />
+
 Why write a package? One compelling reason is that you have code that
 you want to share with others. Bundling your code into a package makes
 it easy for other people to use it, because like you, they already know
@@ -123,10 +125,12 @@ programming multi-character combinations. This is purely a visual
 feature—the underlying code remains ASCII-compatible. It can make code
 easier to read and understand.
 
+<img src="inst/firacode.png" style="width:80.0%" />
+
 To learn more and install the font, visit the [Fira Code
 website](https://github.com/tonsky/FiraCode) on GitHub.
 
 <hr />
 
-It has been a fantastic trip for me so far. I hope you find these
-helpful, and all the best with your journey with R.
+I hope you find these helpful, and all the best with your journey with
+R. :sparkles:

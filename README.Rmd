@@ -36,7 +36,10 @@ For more information on using [DuckDB](https://github.com/duckdb/duckdb), please
 
 <hr />
 
-### R Package 
+### R Package
+
+![](inst/rpackages.png){width=25%}
+
 
 Why write a package? One compelling reason is that you have code that you want to share with others. Bundling your code into a package makes it easy for other people to use it, because like you, they already know how to use packages. If your code is in a package, any R user can easily download it, install it and learn how to use it.
 
@@ -82,8 +85,10 @@ A good place to start is the [bslib website](https://rstudio.github.io/bslib/) o
 
 Fira Code is a free monospaced font with ligatures for common programming multi-character combinations. This is purely a visual feature—the underlying code remains ASCII-compatible. It can make code easier to read and understand.
 
+![](inst/firacode.png){width=80%}
+
 To learn more and install the font, visit the [Fira Code website](https://github.com/tonsky/FiraCode) on GitHub.
 
 <hr />
 
-It has been a fantastic trip for me so far. I hope you find these helpful, and all the best with your journey with R.
+I hope you find these helpful, and all the best with your journey with R. :sparkles:
